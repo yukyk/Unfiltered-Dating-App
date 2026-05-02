@@ -1,0 +1,76 @@
+/* ─── Google Fonts are loaded in index.html ─── */
+/* Cormorant Garamond: headings, italic display */
+/* Josefin Sans: labels, nav, UI text */
+/* Lora: body text, quotes, italic copy */
+
+/* Type scale */
+.display-xl {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 5rem;
+  line-height: 0.92;
+}
+
+.display-lg {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2.8rem;
+  line-height: 1.1;
+}
+
+.display-md {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+
+.heading-lg {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 2.3rem;
+  line-height: 1.1;
+}
+
+.heading-md {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 1.15;
+}
+
+.label-sm {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.52rem;
+  letter-spacing: 0.55em;
+  text-transform: uppercase;
+}
+
+.label-xs {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.54rem;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+}
+
+.body-md {
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.body-sm {
+  font-family: "Lora", serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.body-italic {
+  font-family: "Lora", serif;
+  font-style: italic;
+}

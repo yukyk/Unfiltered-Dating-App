@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Unfiltered — A dating app for your whole truth. No filters. No performance. Just real.">
+<meta property="og:title" content="Unfiltered — We want your real.">
+<meta property="og:description" content="Most apps want your best. We want your real. Join the waitlist.">
+<meta property="og:image" content="/og-image.jpg">
+<title>Unfiltered — Join the Waitlist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Josefin+Sans:wght@200;300;400;500&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-brand">un<em>filtered</em></div>
+  <a href="#join" class="nav-cta">Join Waitlist →</a>
+</nav>
+
+<section class="hero" id="top">
+  <div class="hero-glow glow-1"></div>
+  <div class="hero-glow glow-2"></div>
+  <div class="hero-glow glow-3"></div>
+  <div class="hero-lines">
+    <div class="hero-line hl-1"></div>
+    <div class="hero-line hl-2"></div>
+    <div class="hero-line hl-3"></div>
+    <div class="hero-vline hvl-1"></div>
+    <div class="hero-vline hvl-2"></div>
+  </div>
+
+  <p class="hero-eyebrow"><span></span> A dating app for your whole truth <span></span></p>
+
+  <h1 class="hero-headline">
+    <span class="line-1">Most apps want</span>
+    <span class="line-2">your best.</span>
+    <span class="line-3">We want your real.</span>
+  </h1>
+
+  <div class="hero-rule"></div>
+
+  <p class="hero-sub">
+    No filters. No performance. No curated version of you.
+    Unfiltered connects people through honesty — good moments,
+    sad chapters, real habits, and the things you've never quite said out loud.
+  </p>
+
+  <div class="hero-form-wrap" id="join">
+    <div class="name-row">
+      <input type="text" class="name-input" id="hero-name" placeholder="Your first name" autocomplete="given-name" />
+    </div>
+    <div class="form-row">
+      <input type="email" class="form-input" id="hero-email" placeholder="your@email.com" autocomplete="email" />
+      <button class="form-btn" id="hero-btn" onclick="submitWaitlist('hero')">
+        <span class="btn-text">Join Waitlist</span>
+        <span class="btn-spinner"></span>
+      </button>
+    </div>
+    <p class="form-note">No spam. Just your spot in line — and one email when we launch.</p>
+
+    <div class="form-success" id="hero-success">
+      <div class="success-icon">✦</div>
+      <div class="success-title">You're in.</div>
+      <p class="success-sub">Check your email — we sent you something real.<br>Your truth is already on its way to finding someone who deserves it.</p>
+      <span class="success-pos" id="hero-pos">Position #—</span>
+    </div>
+  </div>
+
+  <p class="hero-count" id="count-display">
+    <strong id="waitlist-count">—</strong> people already waiting
+  </p>
+</section>
+
+<div class="ticker-section">
+  <div class="ticker-track">
+    <span class="ticker-item">No filters <span class="ticker-dot">·</span> No performance <span class="ticker-dot">·</span> No pretending <span class="ticker-dot">·</span> 7 layers of honesty <span class="ticker-dot">·</span> Real connection <span class="ticker-dot">·</span> Your whole truth <span class="ticker-dot">·</span></span>
+    <span class="ticker-item">No filters <span class="ticker-dot">·</span> No performance <span class="ticker-dot">·</span> No pretending <span class="ticker-dot">·</span> 7 layers of honesty <span class="ticker-dot">·</span> Real connection <span class="ticker-dot">·</span> Your whole truth <span class="ticker-dot">·</span></span>
+  </div>
+</div>
+
+<section class="features">
+  <div class="features-header">
+    <div>
+      <p class="section-eyebrow">Why Unfiltered</p>
+      <h2 class="features-title reveal">Dating apps are<br><strong>highlight reels.</strong><br>We built a truth reel.</h2>
+    </div>
+    <p class="features-intro reveal reveal-delay-2">Every other platform asks for your best photos, your most charming bio, your peak self. The result? People meet each other's masks and wonder why they can't connect deeper. Unfiltered changes the premise entirely.</p>
+  </div>
+
+  <div class="features-grid">
+    <div class="feature-card reveal">
+      <div class="feature-num">01</div><span class="feature-icon">🌿</span>
+      <h3 class="feature-title">The Good</h3>
+      <p class="feature-body">Your bright moments. Photos and stories from when life felt right. Not posed — candid. The real version of happy.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-1">
+      <div class="feature-num">02</div><span class="feature-icon">🌑</span>
+      <h3 class="feature-title">The Real</h3>
+      <p class="feature-body">The sad chapters. The hard years. The moments nobody posts. Shared only with people who've shown theirs first.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-2">
+      <div class="feature-num">03</div><span class="feature-icon">✦</span>
+      <h3 class="feature-title">The Rare</h3>
+      <p class="feature-body">Once-in-a-life moments that only you carry. The experiences that made you who you are. Nobody else has these.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-1">
+      <div class="feature-num">04</div><span class="feature-icon">📖</span>
+      <h3 class="feature-title">Nine questions, no typing</h3>
+      <p class="feature-body">Before you swipe, you answer. Nine relationship-focused questions, one per screen. Your answers shape everything about who you see.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-2">
+      <div class="feature-num">05</div><span class="feature-icon">♥</span>
+      <h3 class="feature-title">Layer exchange</h3>
+      <p class="feature-body">You don't get access to someone's deepest stories by swiping right. You earn them — by sharing your own first.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-3">
+      <div class="feature-num">06</div><span class="feature-icon">◎</span>
+      <h3 class="feature-title">Realness Score</h3>
+      <p class="feature-body">The more you fill — photos, habits, chapters, your one ask — the more visible you become. Honesty has a reward here.</p>
+    </div>
+  </div>
+</section>
+
+<section class="layers-section">
+  <div class="layers-inner">
+    <div class="layers-left">
+      <p class="section-eyebrow reveal">The 7 Layers</p>
+      <h2 class="layers-heading reveal reveal-delay-1">Think of it as<br>peeling back<br>a <strong>person.</strong></h2>
+      <p class="layers-sub reveal reveal-delay-2">Every layer reveals something more real than the last. You start with a photo. You end with something nobody else has ever seen.</p>
+      <div class="layers-note reveal reveal-delay-3">
+        <p class="layers-note-txt">Layers 5–7 are private. They're only visible to a match when both of you have shared the same layer. <em>You earn the truth. You don't just receive it.</em></p>
+      </div>
+    </div>
+    <div class="layer-list">
+      <div class="layer-item reveal"><div class="layer-num">01</div><div class="layer-info"><div class="layer-name">The Cover</div><div class="layer-desc">Your two most honest photos. Not your best — your most real.</div></div><span class="layer-badge badge-all">All plans</span></div>
+      <div class="layer-item reveal reveal-delay-1"><div class="layer-num">02</div><div class="layer-info"><div class="layer-name">Real Picks</div><div class="layer-desc">Bad lighting. Tired mornings. Unposed. Up to 8 photos of the version you don't usually share.</div></div><span class="layer-badge badge-honest">Honest+</span></div>
+      <div class="layer-item reveal reveal-delay-2"><div class="layer-num">03</div><div class="layer-info"><div class="layer-name">The Everyday</div><div class="layer-desc">What a Tuesday actually looks like. Your desk at 11pm. Morning tea.</div></div><span class="layer-badge badge-honest">Honest+</span></div>
+      <div class="layer-item reveal"><div class="layer-num">04</div><div class="layer-info"><div class="layer-name">Habits</div><div class="layer-desc">Sleep time. Diet. Screen time. Faith. The truth about how you actually live.</div></div><span class="layer-badge badge-honest">Honest+</span></div>
+      <div class="layer-item reveal reveal-delay-1"><div class="layer-num">05</div><div class="layer-info"><div class="layer-name">Opinions</div><div class="layer-desc">Things you believe that most people around you don't.</div></div><span class="layer-badge badge-unfil">Unfiltered</span></div>
+      <div class="layer-item reveal reveal-delay-2"><div class="layer-num">06</div><div class="layer-info"><div class="layer-name">The Wound</div><div class="layer-desc">One hard chapter. In your own words. Only visible after your match shares theirs.</div></div><span class="layer-badge badge-unfil">Unfiltered</span></div>
+      <div class="layer-item reveal reveal-delay-3"><div class="layer-num">07</div><div class="layer-info"><div class="layer-name">The Ask</div><div class="layer-desc">One honest thing you need from a partner. Not a checklist. One sentence. Raw.</div></div><span class="layer-badge badge-unfil">Unfiltered</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="how-section">
+  <p class="section-eyebrow reveal" style="justify-content:center;text-align:center;">How it works</p>
+  <h2 class="how-title reveal reveal-delay-1">Four steps.<br>No pretending.</h2>
+  <p class="how-sub reveal reveal-delay-2">From first tap to real connection — every step is designed to strip away the performance.</p>
+  <div class="how-steps">
+    <div class="how-step reveal"><div class="how-step-num">1</div><div class="how-step-title">Choose your world</div><p class="how-step-body">Male or female — your onboarding is personalised to you.</p></div>
+    <div class="how-step reveal reveal-delay-1"><div class="how-step-num">2</div><div class="how-step-title">Answer 9 questions</div><p class="how-step-body">All tap, no typing. Each question is relationship-focused.</p></div>
+    <div class="how-step reveal reveal-delay-2"><div class="how-step-num">3</div><div class="how-step-title">Build your truth</div><p class="how-step-body">Photos, chapters, habits, your one ask. The more you fill, the higher your Realness Score.</p></div>
+    <div class="how-step reveal reveal-delay-3"><div class="how-step-num">4</div><div class="how-step-title">Earn the layers</div><p class="how-step-body">Swipe. Match. Unlock each other's deeper layers one by one.</p></div>
+  </div>
+</section>
+
+<section class="manifesto">
+  <div class="manifesto-inner">
+    <p class="manifesto-eyebrow">The reason we built this</p>
+    <blockquote class="manifesto-quote">"The parts of you that you've been told to keep hidden are <em>exactly</em> the parts someone out there is looking for."</blockquote>
+    <p class="manifesto-attr">— Unfiltered</p>
+  </div>
+</section>
+
+<section class="plans-section">
+  <div class="plans-header">
+    <p class="section-eyebrow reveal" style="justify-content:center;">How deep you go</p>
+    <h2 class="plans-title reveal reveal-delay-1">Three plans.<br>One truth.</h2>
+    <p class="plans-sub reveal reveal-delay-2">Start free. Go deeper when you're ready.</p>
+  </div>
+  <div class="plans-grid">
+    <div class="plan-card reveal">
+      <p class="plan-name">Free</p><p class="plan-price"><sup>$</sup>0</p><p class="plan-period">forever</p>
+      <div class="plan-divider"></div>
+      <div class="plan-features">
+        <div class="plan-feat"><span class="plan-feat-dot"></span>5 swipes per day</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>Layer 1 profiles visible</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>Up to 10 messages per match</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>Standard matching</div>
+      </div>
+    </div>
+    <div class="plan-card featured reveal reveal-delay-1">
+      <span class="plan-tag">Most chosen</span>
+      <p class="plan-name">Honest</p><p class="plan-price"><sup>$</sup>6<small style="font-size:1.2rem">.99</small></p><p class="plan-period">per month</p>
+      <div class="plan-divider"></div>
+      <div class="plan-features">
+        <div class="plan-feat"><span class="plan-feat-dot"></span>10 swipes per day</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>Layers 1–4 visible</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>Unlimited messaging</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>See who liked you</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>Habits &amp; Everyday unlocked</div>
+      </div>
+    </div>
+    <div class="plan-card reveal reveal-delay-2">
+      <p class="plan-name">Unfiltered</p><p class="plan-price"><sup>$</sup>12<small style="font-size:1.2rem">.99</small></p><p class="plan-period">per month</p>
+      <div class="plan-divider"></div>
+      <div class="plan-features">
+        <div class="plan-feat"><span class="plan-feat-dot"></span>20 swipes per day</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>All 7 layers unlocked</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>AI compatibility read</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>Realness Score visible</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>The Wound &amp; The Ask</div>
+        <div class="plan-feat"><span class="plan-feat-dot"></span>Priority matching</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bottom-cta" id="join-bottom">
+  <p class="cta-eyebrow reveal">Get early access</p>
+  <h2 class="cta-title reveal reveal-delay-1">Stop performing.<br>Start <strong>connecting.</strong></h2>
+  <div class="cta-form-wrap">
+    <div class="name-row"><input type="text" class="name-input" id="cta-name" placeholder="Your first name" /></div>
+    <div class="form-row">
+      <input type="email" class="form-input" id="cta-email" placeholder="your@email.com" />
+      <button class="form-btn" id="cta-btn" onclick="submitWaitlist('cta')"><span class="btn-text">Join Waitlist</span><span class="btn-spinner"></span></button>
+    </div>
+    <p class="form-note">No spam. One email when we launch.</p>
+    <div class="form-success" id="cta-success">
+      <div class="success-icon">✦</div>
+      <div class="success-title">You're in the real ones list.</div>
+      <p class="success-sub">Check your email. We sent you something worth reading.</p>
+      <span class="success-pos" id="cta-pos">Position #—</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-brand">un<em>filtered</em></div>
+  <p class="footer-txt">© 2025 Unfiltered. Built for people who are done pretending.</p>
+  <div class="footer-links">
+    <a href="#" class="footer-link">Privacy</a>
+    <a href="#" class="footer-link">Terms</a>
+    <a href="mailto:hello@unfiltered.app" class="footer-link">Contact</a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
